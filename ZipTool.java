@@ -15,7 +15,7 @@ import org.apache.tools.zip.ZipOutputStream;
  * @version V1.0 
  *
  */
-public class ZipTools {
+public class ZipTool {
 	static final int BUFFER = 8192;
 
 	private static void compress(File file, ZipOutputStream out, String basedir) {
@@ -84,6 +84,6 @@ public class ZipTools {
 	}
 
 	public static void main(String[] args) {
-		ZipTools.zip("D:\\test", "D:\\test4.zip");
+		ZipTool.zip("D:\\test", "D:\\test4.zip");
 	}
 }
