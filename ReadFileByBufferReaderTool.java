@@ -11,8 +11,7 @@ import java.io.InputStreamReader;
  * @version V1.0 
  *
  */
-public class ReadFileByBufferReader {
-
+public class ReadFileByBufferReaderTool {
 	public void readData(String filePath) {
 		BufferedReader bufferedReader = null;
 		try {
@@ -39,5 +38,4 @@ public class ReadFileByBufferReader {
 			}
 		}
 	}
-		
 }
