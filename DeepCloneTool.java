@@ -10,7 +10,7 @@ import java.util.List;
  * @version V1.0.0
  * @date 2017/4/24
  */
-public class DeepCloneUtil {
+public class DeepCloneTool {
     /**
      * 使用序列化方法实现List深度克隆
      *
